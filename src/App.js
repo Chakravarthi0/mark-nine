@@ -47,7 +47,7 @@ export default function App() {
 
     return (
         <div style={{ textAlign: "center" }}>
-            <h1 style={{ padding: "1rem", margin: "1rem" }} >📚 goodbooks</h1>
+            <h1 style={{ padding: "1rem", margin: "1rem" }} >📚 Goodbooks</h1>
             <p style={{ padding: "1rem", margin: "1rem" }} >
                 Checkout my favorite books. Select a genre to get started
             </p>
@@ -88,6 +88,31 @@ export default function App() {
                     ))}
                 </ul>
             </div>
+
+            <footer>
+                <ul class="footer-list">
+                    <li class="list-item"><a target="_blank" href="mailto:chakravarthisaran7@gmail.com" class="footer-links">
+                        <i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="list-item"><a target="_blank" href="https://github.com/chakravarthi0">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                    </a>
+                    </li>
+                    <li class="list-item"><a target="_blank" href="https://www.linkedin.com/in/saran-chakravarthi-b44438175">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    </li>
+                    <li class="list-item"><a target="_blank" href="https://twitter.com/saranchakravar3">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    </li>
+                    <li class="list-item"><a target="_blank" href="https://portfolio-saran.netlify.app/">
+                        <i class="fas fa-briefcase"></i>
+                    </a>
+                    </li>
+
+                </ul>
+            </footer>
 
         </div>
     )
