@@ -53,7 +53,7 @@ const foodDB = {
         {
             name: "Spring rolls",
             des: "This is actually a type of dumpling, popularised from the Cantonese style of cooking and is prepared to welcome the season of spring. In India, they are fried till are golden are filled with Julienne cut pieces of vegetables.",
-            rating: "5/5"
+            rating: "4.85/5"
         },
         {
             name: "Chillichicken",
@@ -87,7 +87,7 @@ const foodDB = {
         {
             name: "Chicken Chettinad",
             des: " Full of flavour and bold masalas, this dish will floor your family and guests. A gorgeous melange of onions, tomatoes, cinnamon sticks, cloves, cumin, curry leaves and a rich coconut-y paste.",
-            rating: "5/5"
+            rating: "4.95/5"
         },
         {
             name: "Andhra Style Chicken Curry",
@@ -126,16 +126,16 @@ export default function App() {
     return (
         <div style={{ textAlign: "center" }}>
             <h1 style={{ padding: "1rem", margin: "1rem" }} >😋 Food Recommendation</h1>
-            <p style={{ padding: "1rem", margin: "1rem" }} >
+            <h2 style={{ padding: "1rem", margin: "1rem" }} >
                 Checkout my favorite dishes. Select a cuisine to get started
-            </p>
+            </h2>
             <div style={{ padding: "1rem", margin: "1rem" }} >
                 {
                     foodButtons.map(cuisine => {
                         return (
                             <button key={cuisine} style={{
                                 padding: "0.5rem 1rem", cursor: "pointer",
-                                borderRadius: "0.5rem", border: "1px solid black",
+                                borderRadius: "0.5rem", border: "none",
                                 margin: "0.5rem 1rem"
                             }} onClick={() => oncuisineClick(cuisine)}>{cuisine}</button>
                         )
@@ -143,7 +143,7 @@ export default function App() {
                 }
             </div>
 
-            <hr />
+            
 
             <div>
                 <ul className="books-list">
@@ -159,8 +159,8 @@ export default function App() {
                                 borderRadius: "0.5rem"
                             }}
                         >
-                            <div style={{ fontSize: "larger" }}> {book.name} </div>
-                            <div style={{ fontSize: "smaller" }}> {book.rating} </div>
+                            <h2 style={{ fontSize: "larger", color:"brown" }}> {book.name} </h2>
+                            <h4 style={{ fontSize: "larger" }}> {book.rating} </h4>
                             <div>{book.des}</div>
                         </li>
                     ))}
