@@ -58,7 +58,7 @@ const foodDB = {
         {
             name: "Chillichicken",
             des: "Chilli chicken is probably most common Chinese dish readily available in all parts of the nation. In fact, it is so famous, that most roadside street food stalls even sell Chilli Chicken. It is prepared with a Soy Sauce Marinade forthe chicken. The Chicken marinade is cooked with Garlic, Ginger, and spices and stir-fried with Onions and Green Chillies.",
-            rating: "5/5"
+            rating: "4.5/5"
         },
         {
             name: "Chowmein",
@@ -125,7 +125,7 @@ export default function App() {
 
     return (
         <div style={{ textAlign: "center" }}>
-            <h1 style={{ padding: "1rem", margin: "1rem" }} >📚 Goodbooks</h1>
+            <h1 style={{ padding: "1rem", margin: "1rem" }} >😋 Food Recommendation</h1>
             <p style={{ padding: "1rem", margin: "1rem" }} >
                 Checkout my favorite dishes. Select a cuisine to get started
             </p>
