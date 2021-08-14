@@ -1,3 +1,3 @@
 # Food Recommendation App
 
-I struggle with understanding the emojis. Do you too? If yes, then see this library of emojis with meaning.check out the live app [here](https://food-recommendation-09.netlify.app/)
+Who does not like food? You would find some good recommendations for all the cuisine. Made using ReactJS with love..check out the live app [here](https://food-recommendation-09.netlify.app/)
