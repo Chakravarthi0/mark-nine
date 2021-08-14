@@ -2,51 +2,51 @@ import React, { useState } from 'react';
 import "./styles.css"
 
 
-const bookDB = {
-    javascript: [
-        {
-            name: "Eloquent JavaScript",
-            rating: "4/5"
-        },
-        {
-            name: "You Don't Know JS",
-            rating: "3.5/5"
-        },
-        {
-            name: "JavaScript: The Good Parts",
-            rating: "5/5"
-        }
-    ],
+// const bookDB = {
+//     javascript: [
+//         {
+//             name: "Eloquent JavaScript",
+//             rating: "4/5"
+//         },
+//         {
+//             name: "You Don't Know JS",
+//             rating: "3.5/5"
+//         },
+//         {
+//             name: "JavaScript: The Good Parts",
+//             rating: "5/5"
+//         }
+//     ],
 
-    fiction: [
-        {
-            name: "The Witcher",
-            rating: "4.75/5"
-        },
-        {
-            name: "Shiva Trilogy",
-            rating: "5/5"
-        },
-        {
-            name: "Harry Potter and the Sorcerer's Stone",
-            rating: "4.5/5"
-        },
-    ],
-    business: [
-        {
-            name: "Never Split the Difference",
-            rating: "3.5/5"
-        },
-        {
-            name: "Loonshots",
-            rating: "5/5"
-        },
-        {
-            name: "How to Win Friends and Influence People",
-            rating: "4/5"
-        }
-    ]
-};
+//     fiction: [
+//         {
+//             name: "The Witcher",
+//             rating: "4.75/5"
+//         },
+//         {
+//             name: "Shiva Trilogy",
+//             rating: "5/5"
+//         },
+//         {
+//             name: "Harry Potter and the Sorcerer's Stone",
+//             rating: "4.5/5"
+//         },
+//     ],
+//     business: [
+//         {
+//             name: "Never Split the Difference",
+//             rating: "3.5/5"
+//         },
+//         {
+//             name: "Loonshots",
+//             rating: "5/5"
+//         },
+//         {
+//             name: "How to Win Friends and Influence People",
+//             rating: "4/5"
+//         }
+//     ]
+// };
 
 const foodDB = {
     "Chinese": [
@@ -102,11 +102,11 @@ const foodDB = {
     ]
 }
 
-const genreButtons = [
-    "javascript",
-    "fiction",
-    "business"
-]
+// const genreButtons = [
+//     "javascript",
+//     "fiction",
+//     "business"
+// ]
 
 const foodButtons = [
     "Chinese",
